@@ -1,0 +1,14 @@
+{
+	"name": "pi-mode-toggle",
+	"version": "0.1.0",
+	"description": "Togglable skill modes for pi (/mode) — Cursor-style Custom Modes",
+	"keywords": ["pi-package"],
+	"license": "MIT",
+	"type": "module",
+	"peerDependencies": {
+		"@earendil-works/pi-coding-agent": "*"
+	},
+	"pi": {
+		"extensions": ["./extensions"]
+	}
+}
